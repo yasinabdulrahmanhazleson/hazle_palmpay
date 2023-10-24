@@ -1,0 +1,268 @@
+                         * {
+                             padding: 0;
+                             margin: 0;
+                             box-sizing: border-box;
+                         }
+                         
+                         .heading-first {
+                             color: black;
+                             font-size: 50px;
+                             width: 60%;
+                         }
+                         
+                         .inner-digital {
+                             color: rgb(3, 3, 94);
+                             font-weight: bold;
+                         }
+                         
+                         .paragraph-first {
+                             font-size: 18px;
+                             width: 80%;
+                         }
+                         
+                         .digital-images img {
+                             width: 30%;
+                         }
+                         
+                         .navbar .my-container {
+                             display: flex;
+                             flex-wrap: inherit;
+                             align-items: center;
+                             justify-content: space-between;
+                         }
+                         
+                         .my-container {
+                             padding: 0px 200px;
+                         }
+                         
+                         .first-section {
+                             padding-top: 100px;
+                         }
+                         
+                         .col-img {
+                             width: 80%;
+                         }
+                         
+                         .enjoy {
+                             margin: 130px 0px;
+                         }
+                         
+                         .more-money-h2 {
+                             font-size: 45px;
+                             width: 80%;
+                         }
+                         
+                         .more-money-p {
+                             width: 80%;
+                         }
+                         
+                         .enjoy-link {
+                             color: #6306b2;
+                         }
+                         /* .link-check {
+                             margin-left: 145px;
+                         } */
+                         
+                         .enjoy-h2 {
+                             font-size: 45px;
+                         }
+                         
+                         .more-money-btn {
+                             background-color: #6306b2;
+                             color: white;
+                             font-size: 14px;
+                             padding: 15px 30px;
+                         }
+                         
+                         .purple-bg {
+                             background-color: #4a0586;
+                         }
+                         
+                         .customers-say-rates-2 {
+                             border-left: 1px solid white;
+                             padding-left: 20px;
+                         }
+                         
+                         .customers-say h1 {
+                             font-size: 45px;
+                         }
+                         
+                         .partner-heading {
+                             margin-top: 200px;
+                             margin-bottom: 100px;
+                         }
+                         
+                         .our-partners-mt {
+                             margin-top: 80px;
+                         }
+                         
+                         .purple-card {
+                             padding: 40px;
+                         }
+                         
+                         .purple-card-text {
+                             font-size: 20px;
+                         }
+                         
+                         .purple-card-title {
+                             font-size: 30px;
+                         }
+                         
+                         .download {
+                             margin-top: 250px;
+                         }
+                         
+                         .download h1,
+                         .download p {
+                             color: gray;
+                         }
+                         
+                         .deposits {
+                             margin-left: 85px;
+                         }
+                         
+                         .deposit-img img {
+                             width: 80%;
+                         }
+                         
+                         .gray-bg {
+                             background-color: gainsboro;
+                             padding: 80px 0px;
+                         }
+                         /* .last-sec div:not(:first-of-type),
+                         .last-sec-img img:not(:first-of-type) {
+                             margin-left: 15px;
+                         }
+                          */
+                         
+                         .last-sec p {
+                             margin-top: 30px;
+                         }
+                         
+                         .last-sec a,
+                         .last-sec p {
+                             text-decoration: none;
+                             color: inherit;
+                             font-size: 18px;
+                         }
+                         
+                         .last-sec a:hover {
+                             color: blue;
+                         }
+                         
+                         .last-sec-img img {
+                             width: 18%;
+                         }
+                         
+                         @media(max-width: 1200px) {
+                             .navbar-brand img {
+                                 width: 70%;
+                             }
+                             .heading-first,
+                             .more-money-h2,
+                             .customers-say h1 {
+                                 font-size: 30px;
+                                 width: 100%;
+                                 text-align: center;
+                             }
+                             .link-check {
+                                 text-align: center;
+                             }
+                             .paragraph-first,
+                             .more-money-p {
+                                 font-size: 18px;
+                                 text-align: center;
+                                 width: 100%;
+                             }
+                             .my-container {
+                                 padding: 16px;
+                             }
+                             .digital-images img {
+                                 width: 30%;
+                             }
+                             .digital-images,
+                             .deposit {
+                                 text-align: center;
+                             }
+                             .col-img,
+                             .enjoy img,
+                             .more-money-img img,
+                             .deposit-img img {
+                                 width: 100%;
+                             }
+                             .enjoy img {
+                                 margin-bottom: 50px;
+                             }
+                             .enjoy-h2 {
+                                 font-size: 30px;
+                                 text-align: center;
+                                 width: 150%;
+                             }
+                             .more-money-btn {
+                                 padding: 10px 20px;
+                                 margin-bottom: 20px;
+                             }
+                             .btn-div {
+                                 text-align: center;
+                             }
+                             .purple-bg {
+                                 padding-bottom: 500px;
+                             }
+                             .purple-bg-row {
+                                 display: none;
+                             }
+                             .customer-img-text img {
+                                 width: 10%;
+                             }
+                             .our-partners-img img {
+                                 width: 10%;
+                                 height: 10%;
+                             }
+                             .partner-heading {
+                                 font-size: 40px;
+                                 margin-top: 20px;
+                                 margin-bottom: 50px;
+                             }
+                             .download h1,
+                             .download p {
+                                 width: 65%;
+                                 margin: 0 auto;
+                                 text-align: center;
+                             }
+                             .download {
+                                 margin-top: 150px;
+                             }
+                             .download-text {
+                                 font-size: 16px;
+                                 width: 60%;
+                             }
+                             .deposit img {
+                                 width: 10%;
+                                 height: 50%;
+                             }
+                             .deposits {
+                                 margin-left: 0px;
+                             }
+                             .last-sec a,
+                             .last-sec p,
+                             .last-sec h4 {
+                                 text-align: center;
+                                 font-size: 18px;
+                             }
+                             .last-sec-img {
+                                 text-align: center;
+                                 margin-bottom: 50px;
+                             }
+                         }
+                         
+                         @media(max-width: 1300px) {
+                             .purple-card {
+                                 padding: 15px;
+                             }
+                             .purple-card-text {
+                                 font-size: 16px;
+                             }
+                             .purple-card-title {
+                                 font-size: 20px;
+                             }
+                         }
